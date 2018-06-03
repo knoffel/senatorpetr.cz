@@ -1,0 +1,36 @@
+body {background-image: url(""); background-repeat: no-repeat; background-size:contain; background-position:center; background-color:#f9f9f9;}
+
+div.list{
+    max-width: 680px;
+    margin: auto;
+    border: 1px solid #c6c6c6;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 55px;
+    background-color:#ffffff;
+}
+
+
+@font-face{
+    font-family: "piratsky-font";
+    src: url('fonts/BebasNeue-Book.ttf');
+    src: url('fonts/BebasNeue-Book.otf');
+}
+
+@font-face{
+    font-family: "piratsky-font-tlusty";
+    src: url('fonts/BebasNeue-Bold.ttf');
+    src: url('fonts/BebasNeue-Bold.otf');
+}
+
+img.logo {display: block; margin-left: auto; margin-right: auto; width: 440px;}
+img.moznosti {display: block; margin-left: auto; margin-right: auto; width: 556px;margin-bottom: 20px;}
+
+h1 {font-family: piratsky-font-tlusty; font-size:80pt; text-align: center;margin-bottom: 10px;}
+h2 {font-family: piratsky-font-tlusty; font-size:48pt; text-align: center;margin-bottom: 20px;}
+h3 {font-family: piratsky-font-tlusty; font-size:24pt;margin: 0px;}
+
+p {font-family: piratsky-font; font-size:20pt;margin-bottom: 50px; margin-top: 10px;}
+p.stredni {font-family: piratsky-font; font-size:26pt; text-align: center;margin-bottom: 10px;}
+p.velke {font-family: piratsky-font; font-size:36pt; text-align: center;margin-bottom: 10px;}
+p.nejvetsi {font-family: piratsky-font-tlusty; font-size:40pt; text-align: center;margin-bottom: 10px;}
